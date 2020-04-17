@@ -11,7 +11,6 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 public class GuestBook implements ActionListener {
-	
 	ArrayList<String> names = new ArrayList();
 	JButton add = new JButton();
 	JButton view = new JButton();
@@ -48,8 +47,6 @@ public class GuestBook implements ActionListener {
 			names.add("\n"+"Guest #"+guestNumber+": "+JOptionPane.showInputDialog("Add A Name To The Guest Book!"));
 		}
 		else if(e.getSource().equals(view)){
-
-	
 			
 			JOptionPane.showMessageDialog(null, names);
 		
